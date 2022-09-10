@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/book_name"
+	        android:textSize="18sp"
+	        android:textColor="@color/black"
+	        android:gravity="center"
+	        android:layout_gravity="center_vertical"
+	        android:padding="5dp" />
+        
+        <EditText
+            android:id="@+id/addbook_edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/light_blacktext"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/book_dir"
+	        android:textSize="18sp"
+	        android:textColor="@color/black"
+	        android:gravity="center"
+	        android:layout_gravity="center_vertical"
+	        android:padding="5dp" />
+        
+        <TextView
+            android:id="@+id/addbook_tv_dir"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+	        android:textColor="@color/light_blacktext"
+	        android:gravity="center"
+	        android:layout_gravity="center_vertical"
+	        android:padding="5dp"
+	        android:singleLine="true"
+	        android:ellipsize="middle"
+	        android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

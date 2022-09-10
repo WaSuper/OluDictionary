@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notify_layout"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/shape_radius_white"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_launcher"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_vertical" />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <TextView 
+	        android:id="@+id/notify_line1"
+	        android:layout_width="match_parent"
+	        android:layout_height="20dp"
+	        android:text="word\t\taccent\t\ttype"
+	        android:textColor="@color/light_blacktext"
+	        android:textSize="15sp"
+	        android:gravity="center_vertical"
+	        android:layout_marginTop="5dp"
+	        android:singleLine="true"
+			android:layout_marginRight="3dp" />
+	    
+	    <TextView 
+	        android:id="@+id/notify_line2"
+	        android:layout_width="match_parent"
+	        android:layout_height="39dp"
+	        android:text="mean"
+	        android:textColor="@color/light_blacktext"
+	        android:textSize="14sp"
+	        android:layout_marginRight="3dp"
+	        android:lines="2"
+	        android:gravity="center_vertical" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

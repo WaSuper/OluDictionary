@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">欧拉词典</string>
+    <string name="direction">词典路径：</string>
+    <string name="dir_hint">请选择路径</string>
+    <string name="play_random">是否随机播放</string>
+    <string name="stop_after_allplay">是否播放完后停止</string>
+    <string name="please_select_file">请选择文件</string>
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="tip">提示</string>
+    <string name="select">选择</string>
+	<string name="grant_authorization">请选择外置SD卡根目录授权进行文件操作.</string>
+  	<string name="no_authorization">当前目录无授权！</string>
+  	<string name="direction_forbidden">不能选取该目录！</string>
+  	<string name="setting">设置</string>
+  	<string name="single_word_time">单词播放时长（秒）：</string>
+    <string name="single_word_hint">请输入秒数</string>
+  	<string name="request_permission_fail">获取权限失败，请到系统设置手动添加相关权限！</string>
+  	<string name="book_name">书名：</string>
+  	<string name="book_dir">路径：</string>
+  	<string name="add_book">添加书本</string>
+  	<string name="please_input_bookname">请输入书名！</string>
+  	<string name="ensure_delete_book">确定删除“%s”吗？</string>
+  	<string name="word_list">词汇列表</string>
+  	<string name="this_round_play_end">本轮播放完毕！</string>
+  	<string name="begin_new_play_round">即将开始新一轮播放...</string>
+  	<string name="exit">退出/停止</string>
+  	<string name="windowmanager_go_edge">悬浮窗是否自动贴边</string>
+  	<string name="please_install_app">请先安装欧路词典!</string>
+  	<string name="is_ouludict_google">欧路词典是否谷歌版？</string>
+  	<string name="is_show_notify_new">通知栏消息每次重新显示</string>
+  	<string name="play_finish">播放结束！</string>
+  	<string name="nothing_play">无单词播放！</string>
+  	<string name="word_count_string">%1$d/%2$d，剩余：%3$d</string>
+
+</resources>

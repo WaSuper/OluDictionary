@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+    
+    <View
+        android:id="@+id/statusbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+        
+        <ImageView
+            android:id="@+id/lock_img_exit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/exit"
+            android:layout_alignParentRight="true" />
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+        
+        <TextView
+            android:id="@+id/lock_tv_weekday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="星期N"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+        
+        <TextView
+            android:id="@+id/lock_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+        
+        <TextView
+            android:id="@+id/lock_tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N月N日"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+	        android:layout_marginTop="30dp"
+	        android:gravity="center_vertical"  >
+            
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/smallicon_gray" />
+            
+            <TextView
+            	android:id="@+id/lock_tv_count"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="0/0，剩余：0"
+	            android:textColor="@color/white"
+	            android:textSize="18sp"
+	            android:layout_marginLeft="10dp" />
+            
+        </LinearLayout>
+                
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+            <TextView
+	            android:id="@+id/lock_tv_line1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="line1"
+	            android:textColor="@color/white"
+	            android:textSize="18sp"
+		        android:layout_marginTop="5dp" />
+	        
+	        <TextView
+	            android:id="@+id/lock_tv_line2"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="line2"
+	            android:textColor="@color/white"
+	            android:textSize="18sp"
+		        android:layout_marginTop="5dp"
+		        android:layout_below="@id/lock_tv_line1" />
+	        
+	        <TextView
+	            android:id="@+id/lock_tv_line3"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="line3"
+	            android:textColor="@color/white"
+	            android:textSize="18sp"
+		        android:layout_marginTop="5dp"
+		        android:layout_below="@id/lock_tv_line2" />
+            
+            <ImageView 
+	            android:id="@+id/lock_img_play"
+		        android:layout_width="80dp"
+		        android:layout_height="80dp"
+		        android:background="@drawable/pause"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="50dp"
+		        android:layout_centerHorizontal="true" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+</LinearLayout>

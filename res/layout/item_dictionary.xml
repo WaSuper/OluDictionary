@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white" >
+    
+    <ImageView
+        android:id="@+id/item_dict_img_book"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_book"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside" />
+    
+    <TextView
+        android:id="@+id/item_dict_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="书名"
+        android:textColor="@color/light_blacktext"
+        android:textSize="17sp"
+        android:layout_toRightOf="@id/item_dict_img_book"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:singleLine="true"
+        android:ellipsize="middle" />
+    
+    <TextView
+        android:id="@+id/item_dict_tv_dir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径"
+        android:textColor="@color/bg_gray"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/item_dict_img_book"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp" 
+        android:layout_marginRight="70dp"
+        android:singleLine="true"
+        android:ellipsize="middle" />
+    
+    <ImageView
+        android:id="@+id/item_dict_img_play_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_alignParentRight="true"
+        android:padding="13dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>
